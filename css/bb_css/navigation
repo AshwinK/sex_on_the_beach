@@ -1,0 +1,67 @@
+@import "superfish.css";
+
+/*** ESSENTIAL STYLES ***/
+.sf-menu ul {
+	width:			193px; /* left offset of submenus need to match (see below) */
+	height:			18px;
+	margin-left:	0;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	top:			19px; /* match top ul list item height */
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			193px; /* match ul width */
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			193px; /* match ul width */
+}
+
+/*** SKIN ***/
+.sf-menu a {
+	border:			none;
+	text-decoration:none;
+	display:		inline-block;
+	height:			31px;
+}
+.sf-menu ul a {
+	border:			none;
+	border-top:		1px solid #352d25;
+	border-bottom:	1px solid #000000;
+	padding: 		5px 15px;
+	font:			13px/16px Arial, Helvetica, sans-serif;
+	text-transform:	none;
+	display:		block;
+	height:			auto;
+}
+.sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour */
+	color:			#ffffff;
+}
+.sf-menu li {
+	background:		transparent;
+}
+.sf-menu li li {
+	background:		#000000;
+}
+.sf-menu li li li {
+	background:		#000000;
+}
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	text-decoration:none;
+	background:		#5d0900;
+	color:			#ffffff;
+	outline:		0;
+}
+
+/*** SPECIAL OVERRIDES - THIS ARE NO NEEDED ON EVERY SITE ***/
+/*
+.sf-menu li.first a {
+	border-left:	none;
+}
+.sf-menu li.last a {
+	border-right:	none;
+	border-bottom:	none;
+}
+*/

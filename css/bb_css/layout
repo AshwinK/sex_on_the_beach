@@ -1,0 +1,178 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	background:#000000;
+}
+
+#BodyBackground {
+	width:100%;
+	min-width:960px;
+	position:absolute; 
+	top:0px; left:0px;
+	z-index:0;
+}
+
+#Main {
+	width:960px;
+	margin:0 auto;
+	position:relative;
+	top:0; left:0;
+	z-index:20;
+}
+
+#Header {
+	height:140px;
+	padding: 10px 40px 0 40px;
+	position:relative;
+	top:0; left:0;
+}
+
+#HeaderBackground {
+	width:100%;
+	height:150px;
+	background:#000000;
+	position:absolute;
+	top:0; left:0;
+	z-index:10;
+	opacity:0.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";  /* IE8 */
+	filter: alpha(opacity=90); /* IE 5-7  */
+}
+
+#Reservation {
+	position:absolute;
+	bottom:70px; right:25px;
+}
+
+#Navigation {
+	position:absolute;
+	bottom:13px; right:3px;
+	text-transform:uppercase;
+}
+
+#Banner {
+	width:960px;
+	height:45px;
+	line-height:45px;
+	margin-top:298px;
+	overflow:hidden;
+	font-size:14px;
+	position:relative;
+	top:0; left:0;
+}
+
+#Event {
+	width:557px;
+	height:45px;
+	line-height:45px;
+	padding-left:172px;
+	position:absolute;
+	top:45px; left:0;
+	background:url(../images/event-bg.jpg);
+}
+
+#Event a {
+	font-family:'Yanone Kaffeesatz', Arial, Helvetica, sans-serif;
+	letter-spacing:1px;
+	text-transform:uppercase;
+}
+
+#Newsletter {
+	width:231px;
+	height:45px;
+	position:absolute;
+	top:0; right:0;
+}
+
+#Heading {
+	height:69px;
+	overflow:hidden;
+	background:#5d0900;
+	text-transform:uppercase;
+	font:36px/69px Arial, Helvetica, sans-serif;
+	font-weight:100;
+}
+
+#Content {
+	width:924px;
+	min-height:300px;
+	padding:16px 18px 60px 18px;
+	background:#000000;
+}
+
+#Footer {
+	clear:both;
+	height:120px;
+	background:#000000;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	padding:10px 10px 40px 10px;
+	font:14px/24px 'Yanone Kaffeesatz', Arial, Helvetica, sans-serif !important;
+}
+
+#Footer a {
+	color:#ffffff;
+}
+
+#Footer img {
+	vertical-align:top;
+}
+
+#Disclaimer {
+	font:12px/20px 'Yanone Kaffeesatz', Arial, Helvetica, sans-serif !important;
+}
+
+/* Template elements not found on every page */
+
+#Pager {
+	margin-top:10px;
+	font:8px/8px Arial, Helvetica, sans-serif;
+	position:relative;
+	top:0; left:0;
+}
+
+#Pager a {
+	width:9px;
+	height:8px;
+	color:#5C0700;
+	background:#5C0700;
+	display:inline-block;
+	margin-right:2px;
+	overflow:hidden;
+}
+
+#Pager a.activeSlide {
+	color:#ffffff;
+	background:#ffffff;
+}
+
+#Pager a:focus {
+	outline:none;
+}
+
+#Map {
+	width:924px;
+	height:306px;
+	overflow:hidden;
+	padding-bottom:16px;
+}
+
+#Map iframe {
+	margin-top:-3px;
+}
+
+#EventBanner {
+	text-align:center;
+	padding-top:7px;
+	background:#000000;
+}
+
+#SilverStripeNavigator {
+	z-index:100;
+}
+
+/* Page-specific overrides */
+
+#signature-event #Content {
+	min-height:0;
+}

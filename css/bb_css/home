@@ -1,0 +1,23 @@
+#Content,
+#Footer {
+	background:url(../images/content-bg.png);
+	behavior:url(mysite/javascript/iepngfix.htc);
+}
+
+#Slideshow {
+	float:left;
+	width:301px;
+	height:196px;
+	padding:0 28px 28px 0;
+}
+
+#Cycle {
+	width:301px;
+	height:196px;
+	overflow:hidden;
+}
+
+#InnerContent {
+	float:left;
+	width:595px;
+}

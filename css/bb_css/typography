@@ -1,0 +1,146 @@
+.typography {
+	color:#ffffff;
+	background:#000000;
+	font:12px/20px Arial, Helvetica, sans-serif;
+}
+
+.typography select, .typography input, .typography button, .typography textarea {
+	font:99% Arial, Helvetica, sans-serif;
+}
+
+.typography table {
+	font-size:inherit;
+	font:100%;
+}
+
+.typography td {
+	color:#ffffff;
+}
+
+.typography pre, .typography code, .typography kbd, .typography samp, .typography tt {
+	font-family:monospace;
+	line-height:100%;
+}
+
+.typography h1 {
+	color:#ffc361;
+	font:24px/30px Arial, Helvetica, sans-serif;
+}
+
+.typography h2 {
+	font:16px/24px Arial, Helvetica, sans-serif;
+}
+
+.typography h3 {
+	font:14px/22px Arial, Helvetica, sans-serif;
+}
+
+.typography h4, .typography h5, .typography h6, .typography strong {
+	font-weight:bold; 
+}
+
+.typography em {
+	font-style:italic;
+}
+
+.typography hr {
+	border:0;
+	height:1px;
+	color:#5d0900;
+	background-color:#5d0900;
+}
+
+.typography blockquote, .typography ul, .typography ol, .typography dl {
+	margin:12px;
+}
+
+.typography ol, .typography ul, .typography dl {
+	margin-left:24px;
+}
+
+.typography ol .typography li {
+	list-style:decimal outside;	
+}
+
+.typography ul .typography li {
+	list-style:disc outside;
+}
+
+.typography dl .typography dd {
+	margin-left:12px;
+}
+
+.typography th, .typography td {
+	padding:6px;
+}
+
+.typography th {
+	font-weight:bold;
+	text-align:center;
+}
+
+.typography caption {
+	margin-bottom:6px;
+	text-align:center;
+}
+
+.typography h1, .typography h2, .typography h3, .typography hr, .typography p, .typography fieldset, .typography table {
+	margin-bottom:12px;
+}
+
+.typography a {
+	color:#ffc361;
+	text-decoration:none;
+}
+
+.typography a:hover, .typography a:focus, .typography a:active {
+	text-decoration:underline;
+}
+
+/* classes */
+
+.typography .left {
+	text-align:left;
+}
+
+.typography .center {
+	text-align:center;
+}
+
+.typography .right {
+	text-align:right;
+}
+
+.typography img.right {
+	float:right;
+	padding:0 0 28px 28px;
+}
+
+.typography img.left {
+	float:left;
+	padding:0 28px 28px 0;
+}
+
+.typography .clear {
+	clear:both;
+}
+
+.typography .transparent {
+	behavior:url(mysite/javascript/iepngfix.htc);
+}
+
+.typography .important, .typography .required, .typography .validation, .typography .bullet {
+	color:#ffc361;
+}
+
+.typography .bullet {
+	font-size:180%;
+	vertical-align:bottom;
+	*vertical-align:middle;
+}
+
+.typography .award{
+	color:#ffc361;
+	font:24px/30px 'Yanone Kaffeesatz', Tahoma, 'Trebuchet MS', sans-serif;
+	margin-bottom:0;
+}
