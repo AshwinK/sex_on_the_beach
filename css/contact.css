@@ -442,7 +442,7 @@ background:transparent;
 .navbar .nav .active > a:hover {
   color: rgb(0,136,204);
   text-decoration: none;
-  background-color: black;
+  background-color:transparent;
 }
 
 .navbar .nav > li > a {
