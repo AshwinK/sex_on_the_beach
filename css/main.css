@@ -505,6 +505,8 @@ ul.nav li.dropdown:hover ul.dropdown-menu{
   opacity: .8;
   -moz-opacity: .8;
   filter:alpha(opacity=.88);
+  border-radius: 10px;
+  box-shadow: 2px 1px 3px #FFF;;
 }
 
 #footer {
